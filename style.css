@@ -55,11 +55,11 @@
 
 
  .search {
-     width: 55%;
+     width: 60%;
  }
 
  .sdrt {
-     width: 25%;
+     width: 20%;
      display: inline-block;
      position: right;
  }
@@ -108,20 +108,28 @@
  }
 
  button#mic1 {
-
+    box-sizing: border-box;
+ margin-left: 20px;
      height: 40px;
      width: 40px;
+     background-color: rgb(255, 255, 255, 0.158);
      border-style: none;
      border-radius: 100%;
      border-color: rgba(255, 255, 255, 0.158);
- }
-
- img#logo2 {
+     justify-content: center;
+     align-items: center;
+    }
+    
+    img#logo2 {
+     padding-top: 2px;
     box-sizing: border-box;
-        padding: 2px;
+    height: 40px;
      width: 40px;
      border-radius: 100%;
-     background-color: rgb(255, 255, 255, 0.158);
+     background: transparent;
+     justify-content: center;
+     align-items: center;
+     /* background-color: rgb(255, 255, 255, 0.158); */
 
  }
 
