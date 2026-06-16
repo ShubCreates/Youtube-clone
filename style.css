@@ -1,0 +1,101 @@
+ :root {
+            --primary-bg-color:#202126;
+            --primary-color:white;
+        }
+        * {
+            background: var(--primary-bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav {
+            background:#202126;
+            height: 50px;
+           
+        }
+        main {
+            display: flex;
+            border: 2px solid yellow;
+        }
+        section {
+            
+border: 2px solid yellow;
+            height: 20px;
+            width: 20%;
+        }
+        article {
+            color: var(--primary-color);
+            
+            border: 2px solid yellow;
+            width: 80%;
+        }
+        .sdlt {
+            width: 15%;
+            display: inline-block;
+            display: flex;
+            
+            
+        }
+        svg{
+            display: inline-block;
+        }
+        
+        .menu {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+      
+        .search{
+            width: 55%;
+        }
+        .sdrt {
+            width: 30%;
+            display: inline-block;
+            position: right;
+        }
+        nav {
+            display: flex;
+        }
+        img {
+            width: 100px;
+        }
+        .img
+        {
+            display: inline-block;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            width: 30vw;
+            border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+            
+        height: 30px;
+        padding-left: 10px;
+        font-size: 17px;
+        box-sizing: border-box;
+        color: white;
+        
+        }
+        button {
+            
+          border-style: none;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.416);
+            height: 30px;
+            width: 40px;
+            box-sizing: border-box;
+        }
+        .search
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
