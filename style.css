@@ -1,5 +1,5 @@
  :root {
-     --primary-bg-color: #202126;
+     --primary-bg-color: #080808;
      --primary-color: white;
  }
 
@@ -10,7 +10,7 @@
  }
 
  header nav {
-     background: #202126;
+     /* background: #202126; */
      height: 50px;
 
  }
@@ -86,7 +86,7 @@
      width: 30vw;
      border-top-left-radius: 20px;
      border-bottom-left-radius: 20px;
-
+     border: 2px solid rgba(255, 255, 255, 0.264);
      height: 30px;
      padding-left: 10px;
      font-size: 17px;
