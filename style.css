@@ -77,14 +77,21 @@
  }
 
  .logo {
+    width: auto;
      display: flex;
+     box-sizing: border-box;
      justify-content: center;
-     align-items: center;
+     align-content: center;
  }
-svg {
-    display: inline-block;
+.menu svg, .logo svg {
+   
+    justify-content: center;
+    align-items: center;
+    display:block;
     padding: 10px;
+    background-color: transparent;
 }
+
  input {
      width: 40vw;
      border-top-left-radius: 20px;
@@ -108,7 +115,16 @@ svg {
      height: 40px;
      width: 65px;
      box-sizing: border-box;
+     overflow: hidden;
  }
+ button#search1 svg {
+    justify-content: center;
+    align-items: center;
+    display:inline-block;
+    padding: 10;
+    background-color: transparent;
+ }
+ 
  .box {
     display: flex;
     align-items: center;
