@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="style.css" class="css">
     <title>YouTube</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75,400;1,75,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,16 +21,16 @@
                 <div class="menu">
                     <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
                         <!-- Top line -->
-                        <rect x="0" y="0" width="22" height="1.8" fill="#ffffff" />
+                        <rect x="0" y="3" width="22" height="1.8" fill="#ffffff" />
                         <!-- Middle line -->
-                        <rect x="0" y="5.5" width="22" height="1.8" fill="#ffffff" />
+                        <rect x="0" y="8.5" width="22" height="1.8" fill="#ffffff" />
                         <!-- Bottom line -->
-                        <rect x="0" y="11" width="22" height="1.8" fill="#ffffff" />
+                        <rect x="0" y="14" width="22" height="1.8" fill="#ffffff" />
                     </svg>
                 </div>
                 <div class="logo">
 
-                    <svg width="130" viewBox="0 0 320 58" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="110" viewBox="0 0 320 58" xmlns="http://www.w3.org/2000/svg">
                         <rect width="311" height="58" fill="#000000" />
 
                         <!-- Red play button -->
@@ -37,7 +40,7 @@
                         </g>
 
                         <!-- YouTube text -->
-                        <text x="80" y="35" font-family="Roboto, sans-serif" font-size="58" font-weight="bold"
+                        <text x="84" y="32" font-family="Roboto, sans-serif" font-size="58" font-weight="bold"
                             fill="#FFFFFF" dominant-baseline="middle">YouTube</text>
 
 
@@ -63,13 +66,16 @@
             </div>
             <div class="sdrt">
                 <div class="crt">
-                    <button type="submit" id="submit1">Create</button>
+                    <button type="submit" id="submit1"><ion-icon name="add-outline"></ion-icon>
+Create</button>
                 </div>
                 <div class="bell">
-                    <button type="submit" id="mic2"><img src="/" alt=""></button>
+                    <button type="submit" id="bell1">
+                        <ion-icon name="notifications-outline"></ion-icon>
+                    </button>
                 </div>
                 <div class="profile">
-                    <img src="profile.png" alt="profile">
+                    <button type="submit" id="profile1"></button>
                 </div>
             </div>
         </nav>
@@ -83,6 +89,9 @@
             <br>
         </article>
     </main>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
